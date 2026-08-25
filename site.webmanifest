@@ -1,0 +1,17 @@
+{
+  "name": "PolyTrack Archive",
+  "short_name": "PolyTrack Archive",
+  "description": "An unofficial historical archive of PolyTrack releases from 0.1.1 through 0.6.2.",
+  "icons": [
+    {
+      "src": "assets/brand/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#101720",
+  "background_color": "#0b1017",
+  "start_url": ".",
+  "scope": ".",
+  "display": "browser"
+}
