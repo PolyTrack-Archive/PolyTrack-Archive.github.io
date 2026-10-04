@@ -1,12 +1,12 @@
 # PolyTrack Archive
 
-An unofficial historical archive of 13 preserved PolyTrack releases, from `0.1.1` through `0.6.2`.
+An unofficial historical archive of 14 preserved PolyTrack releases, from `0.1.1` through `0.6.3`.
 
 PolyTrack was created by Kodub. This archive was assembled by [StaticQuasar931](https://sites.google.com/view/staticquasar931/gm3z). It does not claim to be an official Kodub archive.
 
 ## Included releases
 
-`0.1.1`, `0.2.0`, `0.3.0`, `0.3.1`, `0.4.0`, `0.4.1`, `0.4.2`, `0.5.0`, `0.5.1`, `0.5.2`, `0.6.0`, `0.6.1`, `0.6.2`
+`0.1.1`, `0.2.0`, `0.3.0`, `0.3.1`, `0.4.0`, `0.4.1`, `0.4.2`, `0.5.0`, `0.5.1`, `0.5.2`, `0.6.0`, `0.6.1`, `0.6.2`, `0.6.3`
 
 Version `0.1.0` is intentionally not included.
 

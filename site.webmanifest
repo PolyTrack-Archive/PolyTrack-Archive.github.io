@@ -1,7 +1,7 @@
 {
   "name": "PolyTrack Archive",
   "short_name": "PolyTrack Archive",
-  "description": "An unofficial historical archive of PolyTrack releases from 0.1.1 through 0.6.2.",
+  "description": "An unofficial historical archive of PolyTrack releases from 0.1.1 through 0.6.3.",
   "icons": [
     {
       "src": "assets/brand/favicon.svg",

@@ -2,7 +2,7 @@
 
 ## Scope
 
-This archive contains the 13 requested numbered releases from `0.1.1` through `0.6.2`. Version `0.1.0` is intentionally excluded.
+This archive contains the original 13 requested numbered releases from `0.1.1` through `0.6.2`, plus the subsequently supplied `0.6.3`. There are 14 listed versions total. Version `0.1.0` is intentionally excluded.
 
 The top-level `sources/` directory is immutable local preservation storage and is ignored by Git. The public-facing extracted copies are under `versions/`. Raw artifacts are not required to understand provenance because their filenames, locations, SHA-256 hashes, and acquisition sources are recorded here.
 
@@ -25,6 +25,7 @@ The directory `C:\Users\Static\Documents\GitHub\Polytrack 0.6.2` is a separate m
 | 0.6.0 | Community-preserved PolyModLoader artifact | `app.asar` | `BA510766349E25A2C52614C328CD1054C06F83687B627741CC6448DB5CAF18C0` | Very high for version identity | `versions/0.6.0/` |
 | 0.6.1 | Community-preserved PolyModLoader artifact | `app.asar` | `14FFE058983BF154B832C9DCFA982C5E44CE8BBB52840EF9302503BD8857C7C6` | Very high for version identity | `versions/0.6.1/` |
 | 0.6.2 | Supplied untouched/original copy | `Polytrack-0.6.2-main.zip` | `70EE585F7E124FCD4A7C4A3A9CB6731FE84FCFC4797A155554C943B84AE3C360` | High | `versions/0.6.2/` |
+| 0.6.3 | Supplied local repository copy; authenticity not independently established | `versions/0.6.3/` (546-file working tree) | Tree SHA-256 `E65ECD053FF5834FBB818942CD1E7472721DF1EF48581EA0B8E0576C2078A035` | High for version identity; moderate for provenance | `versions/0.6.3/` |
 
 ## Detailed records
 
@@ -148,6 +149,21 @@ The directory `C:\Users\Static\Documents\GitHub\Polytrack 0.6.2` is a separate m
 - Preserved path: `sources/0.6.2/Polytrack-0.6.2-main.zip`.
 - Authenticity notes: ZIP name, rendered update screen, and rendered menu identify `0.6.2`. Confidence is high. It appears unmodified based on inspected evidence and the owner's untouched-source designation.
 - Caveat: The first-run update screen is expected and dismissible. Historical online services are unavailable or unreliable. The separate modified 0.6.2 project was not used.
+
+### 0.6.3
+
+- Source type: Owner-supplied local repository copy. It is not an official Kodub web capture and no raw source archive was added under `sources/`.
+- Source URL: `https://github.com/StaticQuasar931/PolyTrack-0.6.3` (the supplied folder's Git `origin`).
+- Original local path: `C:\Users\Static\Documents\GitHub\PolyTrack-Archive\versions\0.6.3\`.
+- Original filename: Not applicable; the supplied item is a repository working tree.
+- Source revision: Git commit `baa365faa7be059c746249f9d21e333652c89e78`.
+- Supplied tree fingerprint: SHA-256 `E65ECD053FF5834FBB818942CD1E7472721DF1EF48581EA0B8E0576C2078A035`, computed from relative file paths and per-file SHA-256 values, excluding `.git/`.
+- Preserved path: No separate raw artifact. The supplied working tree remains under `versions/0.6.3/`.
+- Extracted archive location: `versions/0.6.3/`.
+- Version evidence: `package.json` declares version `0.6.3`; the official Kodub release record is dated 2026-09-16 and describes this update. Version identity confidence is high.
+- Authenticity notes: The directory includes repository metadata pointing to the owner's GitHub repository. This record does not claim it is byte-identical to an official Kodub distribution or unmodified upstream source.
+- Caveat: No immutable source artifact was supplied for this release. The nested `.git/` metadata was left as supplied. Before committing the parent archive, handle this nested repository deliberately to avoid recording it as an embedded Git repository. The launcher image is copied from `versions/0.6.3/images/cover1920x1080.png`.
+- Official release notes: https://www.kodub.com/updates/2026-09-16/polytrack-0.6.3
 
 ## Supplemental recovery artifacts
 

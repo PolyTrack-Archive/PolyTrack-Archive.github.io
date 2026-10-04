@@ -2,7 +2,7 @@
 
 ## Task 2 current state
 
-All 13 requested releases are present and have the same final static-hosting convention:
+The original 13 requested releases are present, and the subsequently supplied `0.6.3` is also listed. The release folders use the same static-hosting convention:
 
 - Extracted location: `versions/<version>/`
 - Entry point: `versions/<version>/index.html`
@@ -12,7 +12,7 @@ The detailed source URLs, original local paths, filenames, hashes, source classi
 
 ## Task 3 launcher state
 
-The root `index.html` is a static, launcher-only archive layer. It renders the 13 chronological version cards from the centralized `assets/archive.js` metadata list and links with relative `versions/<version>/` URLs. Launcher styling is in `assets/archive.css`. No file under `versions/` was changed for Task 3.
+The root `index.html` is a static, launcher-only archive layer. It renders the 14 chronological version cards from the centralized `assets/archive.js` metadata list and links with relative `versions/<version>/index.html` URLs. Launcher styling is in `assets/archive.css`. No game code under `versions/` was changed for the launcher.
 
 Archive attribution is integrated in the launcher footer, page metadata, structured data, central configuration, an about section, source comments, and `README.md`. PolyTrack is separately credited to Kodub. `.nojekyll` is present for GitHub Pages, and `/sources/` remains ignored.
 
@@ -33,6 +33,17 @@ Each release card uses a local image tied to that exact preserved version. The e
 | 0.6.0 | Release tag, URL, rendered menu | Very high | Appears unmodified based on inspected evidence | Menu | Pass | Pass | Pass | Kodub server unavailable, offline core works | Add launcher link only |
 | 0.6.1 | Release tag, update screen, rendered menu | Very high | Appears unmodified based on inspected evidence | Expected update screen, Continue works | Pass | Pass | Pass | Online services unavailable | Preserve first-run flow; add launcher link |
 | 0.6.2 | ZIP name, update screen, rendered menu | High | Appears unmodified based on supplied untouched source and inspection | Expected update screen, Continue works | Pass | Pass | Pass | Online services unavailable | Preserve first-run flow; add launcher link |
+| 0.6.3 | Supplied `package.json` version and official release record | High for version identity | Owner-supplied GitHub repository copy; upstream authenticity not independently established | Not yet checked in this archive | Not yet checked | Not yet checked | Not yet checked | Not yet checked | Verify launch and record provenance |
+
+### Added release: 0.6.3
+
+- Entry point: `versions/0.6.3/index.html`.
+- Internal version evidence: `versions/0.6.3/package.json` declares `0.6.3`.
+- Source type and supplied repository revision: recorded in the `0.6.3` entry in `PROVENANCE.md`.
+- Repository note: the supplied folder contains nested `.git/` metadata. Handle it deliberately before committing the parent archive.
+- Launcher image: `assets/release-images/0.6.3.png`, copied from `versions/0.6.3/images/cover1920x1080.png`.
+- Official release date and summary: 2026-09-16; Track of the Week, a new player tutorial, community tracks and version tabs, plus smaller usability improvements. See the [official Kodub release notes](https://www.kodub.com/updates/2026-09-16/polytrack-0.6.3).
+- Launch, gameplay, and editor status: not yet tested as part of this archive update.
 
 Static validation found zero missing direct entry-page references, zero zero-byte playable files, and zero absolute-root direct entry references. All 179 bundled audio files served with their exact byte lengths. Checkpoint displays initialized in `0.3.0` and later; earlier versions correctly lack them. Full end-to-end completion of every track was outside the representative test scope.
 
@@ -49,7 +60,7 @@ The remainder of this file is the Task 1 baseline retained for historical contex
 
 ## Scope and handling
 
-This archive intentionally contains these 13 releases only: `0.1.1`, `0.2.0`, `0.3.0`, `0.3.1`, `0.4.0`, `0.4.1`, `0.4.2`, `0.5.0`, `0.5.1`, `0.5.2`, `0.6.0`, `0.6.1`, and `0.6.2`. Version `0.1.0` is deliberately excluded.
+The original requested release set is these 13 versions: `0.1.1`, `0.2.0`, `0.3.0`, `0.3.1`, `0.4.0`, `0.4.1`, `0.4.2`, `0.5.0`, `0.5.1`, `0.5.2`, `0.6.0`, `0.6.1`, and `0.6.2`. The owner later supplied `0.6.3` as an additional version. Version `0.1.0` remains deliberately excluded.
 
 `sources/` holds immutable preservation artifacts. `versions/` holds separately extracted working copies. No source artifact or game file was edited, beautified, repaired, or otherwise changed during Task 1. The supplied custom directory `C:\Users\Static\Documents\GitHub\Polytrack 0.6.2` was not inspected or used.
 
@@ -72,6 +83,7 @@ The three Network Zipper captures remain in their captured host layout under `ve
 | 0.6.0 | Community-preserved historical build, PolyModLoader archive | `app.asar` | Very high | Main menu appeared with server connection error | Preserve and investigate API dependency later |
 | 0.6.1 | Community-preserved historical build, PolyModLoader archive | `app.asar` | Very high | First-run update screen appeared with server connection error | Continue past update screen during deeper testing; investigate API dependency |
 | 0.6.2 | Original/untouched supplied build | `Polytrack-0.6.2-main.zip` | High | First-run update screen appeared with server connection error | Continue past update screen during deeper testing; investigate API dependency |
+| 0.6.3 | Owner-supplied repository copy | `versions/0.6.3/` | High for version identity; moderate provenance confidence | Not tested in Task 1/2 | Not tested in Task 1/2 | Confirm source provenance before describing as an original Kodub distribution |
 
 ## Audit method and limits
 

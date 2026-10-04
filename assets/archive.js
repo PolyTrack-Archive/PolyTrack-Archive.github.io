@@ -6,7 +6,7 @@ const ARCHIVE = Object.freeze({
     authorUrl: "https://sites.google.com/view/staticquasar931/gm3z",
     githubUrl: "https://github.com/StaticQuasar931",
     creator: "Kodub",
-    description: "Unofficial historical archive of PolyTrack releases from 0.1.1 through 0.6.2."
+    description: "Unofficial historical archive of PolyTrack releases from 0.1.1 through 0.6.3."
 });
 
 const VERSIONS = Object.freeze([
@@ -22,7 +22,8 @@ const VERSIONS = Object.freeze([
     { version: "0.5.2", releaseDate: "05 Nov 2025", description: "Expanded community tracks and leaderboard feedback while adding clearer warnings for software rendering.", tag: "Community tracks", accent: "#ff8b82", image: "assets/release-images/0.5.2.jpg", imageType: "scene" },
     { version: "0.6.0", releaseDate: "10 Mar 2026", description: "A major multiplayer and car-customization release, with the garage becoming part of the PolyTrack experience.", tag: "Major update", accent: "#df89ff", image: "assets/release-images/0.6.0.jpg", imageType: "scene" },
     { version: "0.6.1", releaseDate: "26 May 2026", description: "Improved the multiplayer experience with invitations, smoother loading, and additional community-track support.", tag: "0.6 series", accent: "#ad9aff", image: "assets/release-images/0.6.1.jpg", imageType: "scene" },
-    { version: "0.6.2", releaseDate: "31 May 2026", description: "The final archived update, refining the Natsu finish line and the editor camera without changing the core game.", tag: "Final archived", accent: "#80a9ff", image: "assets/release-images/0.6.2.jpg", imageType: "scene" }
+    { version: "0.6.2", releaseDate: "31 May 2026", description: "A maintenance release that removed Natsu's hidden finish line and fixed editor camera movement and several other issues.", tag: "0.6 series", accent: "#80a9ff", image: "assets/release-images/0.6.2.jpg", imageType: "scene" },
+    { version: "0.6.3", releaseDate: "16 Sep 2026", description: "Added Track of the Week, a new player tutorial, and fresh community tracks, with version tabs and usability improvements.", tag: "Track of the Week", accent: "#67f0d2", image: "assets/release-images/0.6.3.png", imageType: "scene" }
 ]);
 
 const releaseGrid = document.querySelector("#release-grid");

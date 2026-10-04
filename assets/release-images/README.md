@@ -19,3 +19,4 @@ For releases 0.1.1 through 0.4.2, the image is a locally captured screenshot of 
 | `0.6.0.jpg` | `versions/0.6.0/images/news_popup.jpg` |
 | `0.6.1.jpg` | `versions/0.6.1/images/community_tracks.jpg` |
 | `0.6.2.jpg` | `versions/0.6.2/images/news_popup.jpg` |
+| `0.6.3.png` | `versions/0.6.3/images/cover1920x1080.png` |
