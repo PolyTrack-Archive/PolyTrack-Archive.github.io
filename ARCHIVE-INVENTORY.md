@@ -18,6 +18,8 @@ Archive attribution is integrated in the launcher footer, page metadata, structu
 
 Each release card uses a local image tied to that exact preserved version. The early cards use captures of their original main menus; later cards use original in-build assets. The complete source map is in `assets/release-images/README.md`.
 
+The launcher also features `PolyTrack 0.6.3 Ranked`, an unofficial community release by StaticQuasar931. Its image, hero button, and feature button open the supplied Google Sites page in a new tab. Each link sends `utm_source=PolyTrack Archive` with distinct `utm_content` values. It is a promotion, not an additional historical build in the 14-release timeline. The local screenshot source is recorded in `assets/brand/README.md`.
+
 | Version | Version evidence | Confidence | Apparent modification status | Boot | Live driving | Second track | Editor | Current problems | Task 3 action |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 0.1.1 | Captured path and rendered menu | Very high | Appears unmodified after authentic capture restoration | Menu | Pass | Pass | Pass | None observed | Add launcher link only |

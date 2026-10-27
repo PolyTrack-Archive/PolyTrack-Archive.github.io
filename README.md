@@ -10,6 +10,10 @@ PolyTrack was created by Kodub. This archive was assembled by [StaticQuasar931](
 
 Version `0.1.0` is intentionally not included.
 
+## Featured community release
+
+[PolyTrack 0.6.3 Ranked](https://sites.google.com/view/staticquasar931/gm3z/polytrack-ranked) is an unofficial community release by StaticQuasar931. It is promoted separately from the historical Kodub builds and opens in a new tab from the launcher. Launcher links label the traffic source as `PolyTrack Archive` using `utm_source`.
+
 ## Use locally
 
 Serve the repository over HTTP, then open the root page. The included helper works with Node.js:
